@@ -39,13 +39,14 @@ Welcome to the **Face Recognition Attendance System**, an intelligent desktop ap
 
 ## 📁 Project Structure
 
-Face_Recognition-main/
-├── Attendance/ # Logs of recognized faces (CSV format)
-├── Data/ # Stored face images for training
-├── Background.png # GUI background image
-├── add_faces.py # Script to add new users/faces
-├── app.py # Main application (GUI + recognition)
-├── test.py # Test mode to validate face matching
+| File/Folder       | Description                                      |
+|-------------------|--------------------------------------------------|
+| `Attendance/`     | Stores CSV files with logged attendance records  |
+| `Data/`           | Contains stored face images for recognition      |
+| `Background.png`  | Background image used in the application UI      |
+| `add_faces.py`    | Script to add new faces to the dataset           |
+| `app.py`          | Main application for real-time recognition       |
+| `test.py`         | Script to test face recognition functionality    |
 
 
 ---
